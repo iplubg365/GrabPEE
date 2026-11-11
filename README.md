@@ -1,4 +1,4 @@
-# GrabPoint
+# GrabPee
 
 Aplikasi pribadi untuk mencatat penghasilan Grab 30 hari: penghasilan kotor, bensin, dan biaya lain. Bersih dihitung otomatis, lengkap dengan target, grafik, jadwal lokasi, dan ekspor CSV.
 

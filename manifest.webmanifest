@@ -1,7 +1,7 @@
 {
-  "name": "GrabPoint",
-  "short_name": "GrabPoint",
-  "description": "GrabPoint: catatan penghasilan Grab 30 hari, bersih otomatis.",
+  "name": "GrabPee",
+  "short_name": "GrabPee",
+  "description": "GrabPee: catatan penghasilan Grab 30 hari, bersih otomatis.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

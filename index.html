@@ -7,8 +7,8 @@
 <meta name="theme-color" content="#f3f6f2" media="(prefers-color-scheme: light)">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="GrabPoint">
-<meta name="description" content="GrabPoint: catatan penghasilan Grab 30 hari, bersih otomatis.">
+<meta name="apple-mobile-web-app-title" content="GrabPee">
+<meta name="description" content="GrabPee: catatan penghasilan Grab 30 hari, bersih otomatis.">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -17,7 +17,7 @@ html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area
 body { margin: 0; }
 [hidden] { display: none !important; }
 </style>
-<title>GrabPoint</title>
+<title>GrabPee</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
 <style>
 /* Layout: satu kolom sempit seperti buku catatan driver. Total bersih di atas, dua tampilan (Catat / Ringkasan), 30 kartu harian dengan input bentuk pil. */
@@ -186,7 +186,7 @@ button { cursor: pointer; }
     <ol class="slots" id="slots"></ol>
   </section>
   <header class="top">
-    <h1>GrabPoint</h1>
+    <h1>GrabPee</h1>
     <p>Catatan penghasilan Grab 30 hari. Isi setelah selesai narik setiap hari, angka dalam rupiah.</p>
     <p><span class="status" id="status" data-s="local" role="status">Tersimpan di perangkat ini</span></p>
   </header>
@@ -613,7 +613,7 @@ button { cursor: pointer; }
   /* ---------- ringkasan teks, CSV, hapus ---------- */
   $('#copy').addEventListener('click', function () {
     var c = calc();
-    var txt = ['GrabPoint 30 hari',
+    var txt = ['GrabPee 30 hari',
       'Hari terisi: ' + c.filled + '/' + N + ', libur: ' + c.off,
       'Kotor: ' + rp(c.g), 'Bensin: ' + rp(c.b), 'Biaya lain: ' + rp(c.l),
       'Bersih: ' + rp(c.net), 'Rata-rata bersih/hari: ' + rp(c.avg)].join('\n');
